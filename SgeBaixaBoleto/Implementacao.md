@@ -30,7 +30,7 @@ Funcionalidade responsável por dar baixa nos boletos
 ## Instalação e configuração do serviço
 
 ### Instalações e primeiros passos
-- O link de download do instalador do serviço se encontra em [InstaladorSgeBaixaBoleto](/Arquivos/InstaladorSgeBaixaBoleto.rar)
+- O link de download do instalador do serviço se encontra em [InstaladorSgeBaixaBoleto](/SgeBaixaBoleto/Arquivos/InstaladorSgeBaixaBoleto.rar)
 - Ao instalar, por padrão ele irá recomendar que instale na pasta do Sge: C:\Sistemas\Sge\SgeBaixaBoleto:
 
     ![alt text](Imagens/PrintTelaInstalador.png)
