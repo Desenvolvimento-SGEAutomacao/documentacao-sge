@@ -16,8 +16,8 @@ Funcionalidade responsável por dar baixa nos boletos
 
 ## Serviço
 
-- O serviço irá executar a cada x minutos (configurável), e verificar se exisem título que foram cancelados e que obedeçam as regras já mencionadas
-- Caso ocorra, irá iniciar o envio dos títulos.
+- O serviço irá executar a cada x minutos (configurável), e verificar se existem título que foram cancelados e que obedeçam as regras já mencionadas
+- Caso ocorra, irá se iniciar o envio dos títulos.
 
 ## Pré requisitos para instalação
 
