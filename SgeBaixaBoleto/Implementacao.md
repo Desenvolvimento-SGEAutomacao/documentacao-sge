@@ -23,9 +23,8 @@ Funcionalidade responsável por dar baixa nos boletos
 
 ### .Net 8
 
-- Runtime do .Net 8 necessário para execução do serviço
-- [Download no Github](/Arquivos/dotnet-runtime-8.0.8-win-x64.exe)
-- [Download na Microsoft](https://download.visualstudio.microsoft.com/download/pr/cc913baa-9bce-482e-bdfc-56c4b6fafd10/e3f24f2ab2fc02b395c1b67f5193b8d1/dotnet-runtime-8.0.8-win-x64.exe)
+- Runtime do .Net 8 Desktop necessário para execução do serviço
+- [Download na Microsoft](https://dotnet.microsoft.com/pt-br/download/dotnet/thank-you/runtime-desktop-8.0.11-windows-x64-installer)
 
 ## Instalação e configuração do serviço
 
