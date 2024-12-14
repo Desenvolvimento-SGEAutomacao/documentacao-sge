@@ -1,5 +1,6 @@
-## Requisitos 
+# Implementação
 
-- Hyper-V
-- Windows Subsystem for Linux
-- Docker
+## Requisitos técnicos
+
+- Windows 10 ou superior
+- Docker desktop
