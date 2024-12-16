@@ -1,6 +1,11 @@
 ## Sumário
 - [Introdução](#introdução)
-- [Requisitos](#requisitos)
+- [Habilitar produtos](#habilitar-produtos)
+    - [Cadastros e estoque](#cadastros-e-estoque)
+    - [Nome e descrição](#nome-e-descrição)
+    - [Marca](#marca)
+    - [Preço](#preço)
+    - [Dimensões](#dimensões)
 - [Menu de navegação](#menu-de-navegação)
 - [Páginas](#páginas)
     - [Home](#Home)
@@ -16,10 +21,34 @@
 ### O integrador Sge x Nuvemshop realizará a sincronização dos produtos e categorias do Sge com a plataforma Nuvemshop
 ### O integrador irá monitorar as alterações e movimentações feitas nos produtos habilitados para e-commerce e sincronizar com a loja da Nuvemshop
 
-# Requisitos 
+# Habilitar produtos
 
 ### Abaixo o passo a passo de como habilitar os produtos para o envio para a plataforma da Nuvemshop
-### Colocar o doc dos produtos aqui
+
+## Cadastros e estoque
+#### Os produtos que serão integrados precisam estar sinalizados via reserva de estoque. Esta configuração fica no cadastro de produtos, aba F – Reserva Estoque, e a coluna a ser preenchida é Web/App % da respectiva loja
+![alt text](Imagens/stock.png)
+
+### A coluna Web/App % refere-se ao percentual do estoque que deve estar disponível para o e-commerce.
+### Exemplo:
+- Se o estoque atual do produto é 10 unidades e o percentual está 50%, o e-commerce irá receber um estoque disponível de 5 unidades.
+
+## Nome e descrição
+### Também é necessário marcar a opção Habilitado na aba G – E-Commerce. 
+### O campo “Descrição do Produto Web” será usado como nome na Nuvemshop e o campo “Características do Produto Web” será utilizado como descrição na Nuvemshop.
+![alt text](Imagens/description.png)
+
+## Marca
+### A marca do produto também será utilizada para envio:
+![alt text](Imagens/brand.png)
+
+## Preço
+### Os preços que serão enviados a Nuvemshop irão ser respectivamente: Preço a vista será o preço promocional, e o preço parcelado será o preço normal
+![alt text](Imagens/price.png)
+
+## Dimensões
+### As dimensões do produto, na aba 9 – Outros > Dimensões/Volumes/Outros também deverão ser preenchidas
+![alt text](Imagens/dimensions.png)
 
 # Menu de navegação
 ![alt text](Imagens/nav-menu.png)
